@@ -1,0 +1,155 @@
+<elements>
+
+<!--For Form Elements-->
+
+	<element>
+		<sequence-no : int />
+		<type>textbox</type>
+		<sub-type>regular | password</subtype>
+		<size : int/>
+		<default-text : string/>
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no :int />
+		<type>button</type>
+		<sub-type>regular | submit | reset</sub-type>
+		<value : string />
+		<onclick : string />
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>radio-button</type>
+		<label : string />
+		<value : string />
+		<group-name : string />
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>checkbox</type>
+		<label : string />
+		<value : string />
+		<is-checked : boolean />
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>textarea</type>
+		<rows : int />
+		<cols : int />
+		<default-text : string />
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>drop-down-list</type>
+		<options : string(s) separated by ',' />
+		<values : string(s) separated by ',' />
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+<!--For Scripts-->
+
+	<element>
+		<sequence-no : int />
+		<type>script</type>
+		<sub-type>JavaScript | VBScript | PHP</sub-type>
+		<script : string (paragraph text) />
+	</element>
+
+<!--For Simple Elements-->
+
+	<element>
+		<sequence-no : int />
+		<type>text</type>
+		<basic-props>
+			<bold : boolean />
+			<italic : boolean />
+			<underline : boolean />
+			<tt : boolean />
+			<strike : boolean />
+			<sup : boolean />
+			<sub : boolean />
+		</basic-props>
+		<font-props>
+			<size : int />
+			<face : string (font name) />
+			<color : string (name or hashcode) />
+		</font-props>
+		<heading-props>
+			<isHeading : boolean />
+			<level : int (1 to 6) />
+		</heading-props>
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>image</type>
+		<src : string (path) />
+		<height : int />
+		<width : int />
+		<alt-text>Image not available</alt-text>
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int/>
+		<type>hyperlink</type>
+		<label : string />
+		<target : string />
+		<font-props>
+			<size : int />
+			<face : string />
+			<color : string />
+		</font-props>
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>hr</type>
+		<length(HTML-width) : int />
+		<width(HTML-size) : int />
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>body</type>
+		<sub-type>color | image</sub-type>
+		<bgcolor : string (name or hashcode) />
+		<bgimage>
+			<src : string (path) />
+		</bgimage>
+	</element>
+
+	<element>
+		<sequence-no : int />
+		<type>list</type>
+		<sub-type>ol | ul | dl</sub-type>
+		<ol-li : string(s) separated by ',' />
+		<ul-li : string(s) separated by ',' />
+		<dl-props>
+			<dl-dt : string(s) separated by ',' />
+			<dl-dd : string(s) separated by ',' />
+		</dl-props>
+		<x-pos : int />
+		<y-pos : int />
+	</element>
+</elements>
