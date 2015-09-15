@@ -1,0 +1,9 @@
+PageDesigner PRO™
+(Abstract)
+
+TEAM MEMBERS: G. Pruthvi (46), Ch. Rama Krishna (48), K. Saketh (61)
+
+Imagine that situation where you want to create a beautiful static webpage and you are unaware of any markup languages like HTML. Otherwise, imagine yourself to be a web designer whose job is to create a hundred forms each day, where each form has many input elements and you have to create them by using the exhaustive method of typing the HTML code!
+No doubt you would ask someone for a simple webpage generator which would just have an interface to drag-and-drop input elements on to the webpage. This project is just of that kind. The project would be very helpful to those users who possess very less knowledge of any markup languages like HTML. They can just use the simple drag-and-drop interface to create decent static webpages of their own. A user can also test how his page would look like, before generating the actual webpage. Lo! Now every user is a web designer!
+Important feature of the project: One can use the drag-and-drop type toolbox to drag the desired elements and drop them on the webpage, thus creating a prototype of the actual webpage. In this way, the user can have a feel of his webpage before actually generating it.
+Project Implementation details: This project would be developed in the Java language. The MouseListener interface and other event listener interfaces would be used to create the drag-and-drop functionality. The application would be designed to work for a wide class of users working on a variety of platforms and hardware.
